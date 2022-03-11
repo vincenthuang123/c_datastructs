@@ -11,6 +11,7 @@ test:
 	./main
 
 clean:
-	-rm main.o datastruct.o
+	-rm main main.o datastruct.o 
+	-rm -rf main.dSYM
 
 
